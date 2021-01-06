@@ -1,0 +1,36 @@
+
+First function: ( Build Reference Dictonary) 
+
+Step 1 pull out the top 20 Access points from Poduim.txt ( by calculating average for each Column then return the   Return the MAC address of the 20 with the highest address) 
+
+Create a dictionary 1  [ MAC_1: Avg RSSI, MAC_2, Average RSSI, MAC_3: Avg RSSI...................................MAC20:Avg RSSI)
+[ MAC_1: AR00, MAC_2, AR01, MAC_3: 02...................................MAC20:Avg 019)
+
+
+2nd function: ( Build users dictorny) 
+user_dict( datase.txt){
+Return dict
+}
+Look up MAC1 to MAC 20 in different data set. 
+Creat a dictiony 2-9
+[ MAC_1: AR10, MAC_2,AR11, MAC_3: AR12...................................MAC20:Ar119)
+In case MAC does not exist fill average RSSI with -95. 
+
+
+
+
+
+3rd function (compare users dictionary vs refernce dictionary)
+Calculate the location score for 2-9 as follows
+
+= (AR00-AR10)^2+ (AR01-AR11)^2+(AR02-AR12)^2...........+(AR019-AR19)
+
+Repeat that for dataset 2-9 
+
+
+
+
+Build a funcation 
+check_score ( ARx0,....ARx20)
+return (score)
+
