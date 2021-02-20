@@ -1,4 +1,7 @@
 # Attendance
 
-Top 20 Mac Addresses per Dataset by Highest Average Received Signal Strength Indicator (RSSI)
-![Visualization 1](https://github.com/awshene/Attendance/blob/main/vizualization-1.2.2021.png)
+![Access Point Data](https://github.com/awshene/Attendance/blob/main/apdata.png)
+
+![Floor Map](https://github.com/awshene/Attendance/blob/main/floormap.png)
+
+![Confusion Matrix](https://github.com/awshene/Attendance/blob/main/confusion.png)
